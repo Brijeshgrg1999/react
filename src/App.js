@@ -1,5 +1,5 @@
 import Employee from './components/employee';
-import './App.css';
+import './index.css';
 import {useState} from 'react' ; 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   console.log(" list the employee")
   const showEmoployees = true ; 
   return (
-    <div className="App">
+    <div className="App bg-red-300">
      
       {showEmoployees ? (
         <>
